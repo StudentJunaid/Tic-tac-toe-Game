@@ -68,6 +68,7 @@ button.addEventListener("click", () => {
   boxtexts = document.querySelectorAll(".boxtext");
   Array.from(boxtexts).forEach((element) => {
     element.innerText = "";
+    music.pause()
   });
   turn = "x";
   isgameover = false;
